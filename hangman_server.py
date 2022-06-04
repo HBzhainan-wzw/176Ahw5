@@ -56,7 +56,7 @@ def function_name(connectionSocket,addr):
             word_length = str(len(word))
             num_incorrect_guesses = 0
             modified_word = init_word()
-            data = init_word(word)
+            data = init_word()
             server_msg = flag+word_length+str(num_incorrect_guesses)+data
             connectionSocket.send(server_msg.encode())
         
