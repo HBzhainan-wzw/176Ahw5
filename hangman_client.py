@@ -30,7 +30,7 @@ while True:
         guessing_word = answer[3:len(answer)-num_incorrect_guesses]
         incorrect_letter = answer[len(answer)-num_incorrect_guesses:]
         print(">>>"+guessing_word)
-        print(">>>Incorrect Guesses:" +incorrect_letter)
+        print(">>>Incorrect Guesses: " +incorrect_letter)
         valid_input = False
         user_input = None
         while valid_input == False:

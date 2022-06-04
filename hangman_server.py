@@ -61,7 +61,7 @@ def function_name(connectionSocket,addr):
             connectionSocket.send(server_msg.encode())
         
         else:
-            if(num_incorrect_guesses < 7):            
+            if(num_incorrect_guesses < 6):            
                 flag = "0"
                 word_length = str(len(word))
                 
